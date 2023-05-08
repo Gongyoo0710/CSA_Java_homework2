@@ -107,7 +107,7 @@ public static String getSum(String a,String b){
                MinLen = strs[i].length();
        }
        outer:
-       for( i = 0 ; i< MinLen;i++){
+       for( i = 0 ; i< MinLen+1 ;i++){
            for(int j = 0; j < strs.length; j++){
                str = strs[j].substring(0,i);
                if(!str.equals(ans)){
